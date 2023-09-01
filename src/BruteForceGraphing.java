@@ -23,11 +23,16 @@ public class BruteForceGraphing
 
         //----------------------------------
         // TODO: You write the rest!
+
         System.out.println(range);
         for (int i=0; i <range; i++)
         {
-
-            System.out.println("|");
+            System.out.print("|");
+            for (int k=0; k<domain; k++)
+            {
+                System.out.print("~");
+            }
+            System.out.println();
         }
 
         System.out.print("+");
@@ -39,6 +44,12 @@ public class BruteForceGraphing
         System.out.print(domain);
 
         System.out.println();
+
+
+
+
+
+
         System.out.println("This is a test.");
 
 
