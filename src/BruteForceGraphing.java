@@ -27,12 +27,16 @@ public class BruteForceGraphing
         System.out.println(range);
         for (int i=0; i <range; i++)
         {
-            System.out.print("|");
+            if (yIntercept == i)
+                System.out.print("*");
+            else
+                System.out.print("|");
             for (int k=0; k<domain; k++)
             {
                 System.out.print("~");
             }
             System.out.println();
+
         }
 
         System.out.print("+");
