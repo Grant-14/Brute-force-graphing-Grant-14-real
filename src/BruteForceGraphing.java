@@ -33,7 +33,7 @@ public class BruteForceGraphing
                 System.out.print("|");
             for (int k=0; k<domain; k++)
             {
-                if (range-i == slope*k + yIntercept+1)
+                if (range-i == slope*k + yIntercept+slope)
                     System.out.print("*");
                 else
                     System.out.print("~");
